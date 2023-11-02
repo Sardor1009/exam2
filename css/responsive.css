@@ -2,29 +2,49 @@
   #boxes {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-   }
+    align-items: center;
+  }
 }
-@media(max-width: 960px){
-    .advice-boxes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-    .boxes-2 {
+@media (max-width: 960px) {
+  .advice-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px !important;
+  }
+  .boxes-2 {
     gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .service-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+    gap: 10px;
+  }
+  .members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .subscribe {
+    max-width: 400px;
+  }
+  .email-subs {
+    display: none;
+  }
+  
 }
 
 @media (max-width: 540px) {
   .lists {
     display: none;
   }
-  
+
   nav {
     margin-top: -30px;
   }

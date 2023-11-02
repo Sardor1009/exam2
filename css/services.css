@@ -16,11 +16,16 @@
 :root {
   --h1-color: #252b42;
   --p-color: #737373;
+  --subscribe-color: #16697a;
+  --light-text-color: #fff;
 }
-.video img {
-  width: 597px;
+.video {
+  max-width: 597px;
   height: 442px;
   flex-shrink: 0;
+}
+.video img {
+  width: 100%;
 }
 .service-text h2 {
   color: var(--h1-color);
@@ -28,6 +33,7 @@
   font-family: Montserrat;
   font-size: 40px;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 .service-text p {
   color: var(--p-color);
@@ -35,6 +41,7 @@
   font-size: 14px;
   text-align: left;
   padding-bottom: 50px;
+  padding-top: 10px;
 }
 .service-boxes {
   gap: 120px;
@@ -44,16 +51,91 @@
   display: block;
 }
 .icon-text h4 {
-  color:var(--h1-color) ;
+  color: var(--h1-color);
   font-family: Montserrat;
   font-size: 16px;
 }
 .icon-text svg:hover {
-    stroke: orange;
-    stroke-width: 1.5px;
+  stroke: orange;
+  stroke-width: 1.5px;
 }
 .icon-text {
-    display: flex;
-    gap: 20px;
-    padding-bottom: 30px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: px;
+}
+#services {
+  padding-top: 60px;
+}
+.service-boxes {
+  padding-bottom: 100px;
+}
+.member {
+  width: 152px;
+  height: 75px;
+}
+.members {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.service-part2 {
+  background-color: #fafafa;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: space-between;
+  margin-bottom: 65px;
+  max-width: 1050px;
+  max-height: 125px;
+  border-radius: 2px;
+  background-color: var(--subscribe-color);
+}
+.email {
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  padding-right: 230px;
+}
+.subscribe h2 {
+  padding-left: 50px;
+  color: var(--light-text-color, #fff);
+  font-family: Montserrat;
+  font-size: 24px;
+  padding: 15px;
+}
+.email::placeholder {
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.subscribe button {
+  color: var(--light-text-color, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  padding: 13.5px 22px;
+  border-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -52px;
+  margin-right: 50px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+.email {
+  outline: none;
+}
+.email-subs {
+  display: flex;
+  align-items: center;
+}
+.subscribe h2, .email-subs{
+    flex: 50%;
 }
