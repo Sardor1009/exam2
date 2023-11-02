@@ -1,0 +1,59 @@
+#services h1 {
+  color: var(--h1-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.service-p {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  color: var(--p-color);
+  margin-bottom: 100px;
+}
+:root {
+  --h1-color: #252b42;
+  --p-color: #737373;
+}
+.video img {
+  width: 597px;
+  height: 442px;
+  flex-shrink: 0;
+}
+.service-text h2 {
+  color: var(--h1-color);
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.service-text p {
+  color: var(--p-color);
+  font-family: Montserrat;
+  font-size: 14px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.service-boxes {
+  gap: 120px;
+  display: flex;
+}
+.icon-text {
+  display: block;
+}
+.icon-text h4 {
+  color:var(--h1-color) ;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+.icon-text svg:hover {
+    stroke: orange;
+    stroke-width: 1.5px;
+}
+.icon-text {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}

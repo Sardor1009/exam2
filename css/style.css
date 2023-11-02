@@ -1,0 +1,135 @@
+@import url(./common.css);
+@import url(./home.css);
+@import url(./advice.css);
+@import url(./responsive.css);
+@import url(./services.css);
+/* @import url(./about.css); */
+
+
+:root {
+  --secondary-color-1: #00a0c1;
+  --text-color: #252b42;
+  --light-text-color: #fff;
+  --second-text-color: #737373;
+  --black-color: black;
+}
+.box {
+  width: 330px;
+  height: 211px;
+  background-color: #fff;
+  padding: 35px 40px;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.image {
+  padding-bottom: 13px;
+}
+.texts h3 {
+  width: 270px;
+  margin-bottom: 10px;
+  color: var(--text-color, #252b42);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+.texts p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.image svg:hover {
+  stroke: var(--secondary-color-1);
+  stroke-width: 2px;
+}
+.box-3 {
+  background-color: #fff;
+  background: var(--secondary-color-1, #00a0c1);
+}
+.texts-2 h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--light-text-color, #fff);
+}
+.texts-2 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--light-text-color);
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+#home {
+    position: relative;
+}
+
+#boxes {
+  position: absolute;
+  display: flex;
+  gap: 32px;
+  bottom: -105px;
+}
+#boxes p {
+    width: 224px;
+    margin-top: 10px;
+    font-size: 14px; 
+}
+#about h1 {
+  margin-top: 185px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+#about p {
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.image-2 svg:hover {
+  stroke: var(--secondary-color-1);
+  stroke-width: 3px;
+}
+.image-2 {
+  display: flex;
+  justify-content: center;
+}
+.box-2 {
+  text-align: center;
+  display: flex;
+  display: inline-block;
+  width: 230px;
+  height: 210px;
+  padding: 30px 40px;
+  background-color: var(--light-text-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.about-text h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--black-color);
+  padding-top: 11px;
+}
+.about-text p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--second-text-color);
+  padding-top: 11px;
+}
+.boxes-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+#about{
+    margin-bottom: 80px;
+}

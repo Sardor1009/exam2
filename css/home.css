@@ -1,0 +1,52 @@
+main {
+  margin-top: 80px;
+  padding-top: 80px;
+  background-image: url(/assets/images/cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home h1 {
+  width: 509px;
+  font-family: Montserrat;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 800;
+}
+#home p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  width: 376px;
+  margin-top: 35px;
+}
+button {
+  padding: 10px 36px;
+  padding: 10px 36px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 37px;
+  margin-top: 35px;
+  background: #ffa62b;
+  border: none;
+}
+.buttons {
+  padding-bottom: 185px;
+}
+button a {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.button-2 {
+  background-color: var(--main-color);
+  border: 1px solid var(--secondry-color);
+}
+.button-2 a {
+  color: var(--secondry-color);
+}

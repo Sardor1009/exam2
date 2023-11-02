@@ -1,0 +1,47 @@
+#advice h1 {
+  color: var(--p-color #252b42);
+  font-family: Montserrat;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 45px;
+}
+#advice p {
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  padding-bottom: 45px;
+}
+#advice {
+  margin-top: 80px;
+   background-color: #fafafa;
+}
+.advice-box {
+  width: 232px;
+  height: 321px;
+  background-color: #fff;
+  box-shadow: 0 0 5px white;
+}
+.advice-box p {
+  padding: 30px;
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+  display: flex;
+  width: 232px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.advice-box h5 {
+  color: var(--p-color, #252b42);
+  font-family: Montserrat;
+  font-size: 16px;
+  text-align: center;
+}
+.advice-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
